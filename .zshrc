@@ -15,6 +15,9 @@ plugins=(git alias-finder command-not-found docker-compose docker npm node rust 
 # oh-my-zsh https://github.com/ohmyzsh/ohmyzsh
 source $ZSH/oh-my-zsh.sh
 
+# dump autocompletion in a cache directory
+export ZSH_COMPDUMP=$ZSH/cache/.zcompdump-$HOST
+
 # fnm https://github.com/Schniz/fnm
 eval "$(fnm env)"
 
