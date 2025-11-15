@@ -4,7 +4,7 @@
 [pull]
 	rebase = true
 [init]
-        defaultbranch = master
+	defaultbranch = main
 [core]
     pager = delta
 	editor = vim
@@ -23,5 +23,3 @@
 	autoSetupRemote = true
 [rerere]
 	enabled = true
-[maintenance]
-	repo = /Users/filip/projects/chilipiper/frontend

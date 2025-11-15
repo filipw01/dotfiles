@@ -1,5 +1,6 @@
 tap "nikitabobko/tap"
 brew "bat"
+brew "broot"
 brew "docker"
 brew "eza"
 brew "fnm"
