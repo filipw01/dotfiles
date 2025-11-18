@@ -69,5 +69,11 @@ run_task \
     --check-cmd "defaults read -g NSWindowShouldDragOnGesture | grep -q \"$(bool_to_number "$DRAG_WINDOW_ON_GESTURE")\"" \
     --run-cmd "defaults write -g NSWindowShouldDragOnGesture -bool $DRAG_WINDOW_ON_GESTURE"
 
+DEFAULT_FOLDER_VIEW_STYLE=clmv
+run_task \
+    --name "Set default folder view style" \
+    --check-cmd "defaults read com.apple.finder FXPreferredViewStyle | grep -q \"$DEFAULT_FOLDER_VIEW_STYLE\"" \
+    --run-cmd "defaults write com.apple.finder FXPreferredViewStyle -string $DEFAULT_FOLDER_VIEW_STYLE && killall Finder"
+
 
 echo "🎉 All tasks completed successfully! 🎉"
