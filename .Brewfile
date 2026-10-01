@@ -40,6 +40,8 @@ cask "affinity-designer@1"
 cask "affinity-photo@1"
 # Application uninstaller
 cask "appcleaner"
+# IDE for running and orchestrating coding agents
+cask "bb"
 # 3D creation suite
 cask "blender"
 # E-books management software
@@ -48,6 +50,8 @@ cask "calibre"
 cask "discord"
 # Desktop client for Ente Auth
 cask "ente-auth"
+# Launcher for *Epic Games* games
+cask "epic-games"
 # Web browser
 cask "firefox"
 # Web browser
@@ -62,6 +66,8 @@ cask "libreoffice"
 cask "mattermost"
 # Simple application that will prevent iTunes or Apple Music from launching
 cask "notunes"
+# Pomodoro timer
+cask "pomatez"
 # Disk space analyzer
 cask "radix"
 # Control your tools with a few keystrokes
@@ -76,6 +82,8 @@ cask "telegram"
 cask "the-unarchiver"
 # Open-source BitTorrent client
 cask "transmission"
+# Tool to invert scroll direction for physical scroll wheels
+cask "unnaturalscrollwheels"
 # Voice to text app
 cask "voiceink"
 # Multiplayer code editor
